@@ -1,0 +1,11 @@
+program test;
+var
+    x, y, z: int;
+begin
+    x := 2;
+    y := 2;
+    z := x + y;
+    if z > 5 then
+        x := 1; endif
+    z := 1;
+end.
